@@ -1,0 +1,5 @@
+<a href="/auth/twitter">twitter login</a>
+<% if (user.username) { %>
+  <a href="/logout">logout</a>
+  <%= user.username %>
+<% } %>

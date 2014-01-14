@@ -1,0 +1,23 @@
+{
+  "name": "chat-example",
+  "version": "0.0.0",
+  "description": "A chat example to showcase how to use `socket.io` with a static `express` server",
+  "main": "server.js",
+  "repository": "",
+  "author": "Mostafa Eweda <mostafa@c9.io>",
+  "dependencies": {
+    "async": "~0.2.8",
+    "express": "~3.2.4",
+    "socket.io": "~0.9.14",
+    "ejs": "~0.8.5",
+    "passport": "~0.1.18",
+    "passport-twitter": "~1.0.2"
+  },
+  "oauth": {
+    "twitter": {
+      "TWITTER_CONSUMER_KEY": "5amJdyjsuys9UrG9QBQAQw",
+      "TWITTER_CONSUMER_SECRET": "8b7quElC039EV9RfZjb7XjsMpJns21X1r4EFAV9Jw",
+      "callbackURL": "https://twitter-oauth-c9-uiandwe.c9.io/auth/twitter/callback"
+    }
+  }
+}
