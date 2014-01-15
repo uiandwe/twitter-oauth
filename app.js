@@ -40,7 +40,7 @@ app.get('/', function(req, res) {
   // req.user 는 아래에서 설명한다.
   // 처음에 undefined 이나, 로그인 성공하면, profile 정보가 저장된다.
   //
-  console.log(req.user);
+  //console.log(req.user);
   res.render('index', { user: req.session.passport.user || {} });
 });
 //
